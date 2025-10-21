@@ -3,4 +3,3 @@ export class CoursesService {
     return ["course1", "course2", "course3"]
   }
 }
-v
