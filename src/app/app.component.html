@@ -1,4 +1,8 @@
-<h1>Hello Coders!!</h1>
-<app-course></app-course>
-<app-courses></app-courses>
+<favorite (change)="onFavoriteChanged($event)" [is-favorite]="post.isFavorite"></favorite>
+
+
+<app-panel>
+  <div class="heading">Heading</div>
+  <div class="body">Body</div>
+</app-panel>
 <router-outlet/>
